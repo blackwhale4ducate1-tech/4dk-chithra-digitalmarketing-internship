@@ -1,0 +1,28 @@
+# ==========================================
+# PURPOSE & CONTEXT:
+# The Keyword Gap Analysis sheet identifies keywords where direct competitors are ranking in search results, but our B2B SaaS website is either ranking poorly (beyond page 1) or not ranking at all.
+#
+# STEP-BY-STEP INSTRUCTIONS:
+# 1. Run a keyword gap report in SEMrush (Keyword Gap tool) or Ahrefs (Content Gap tool) comparing your site to 2-3 top competitors.
+# 2. Filter for high-intent keywords (commercial/transactional) with Search Volume > 100 and Keyword Difficulty < 70.
+# 3. Import the list into this CSV, filling in your current positions and competitor positions.
+# 4. Calculate the Opportunity Score using the following formula:
+#    Opportunity Score = (Search Volume * (100 - Keyword Difficulty) * (Average Competitor Rank - Current Position)) / 100
+#    (Or simplify: high volume, low difficulty, and high competitor ranks = highest opportunity).
+#
+# COMMON MISTAKES TO AVOID:
+# - Targeting extremely high difficulty terms (KD > 80) early on without establishing page authority.
+# - Focusing on high volume informational terms (e.g., "what is marketing") instead of conversion-focused search queries (e.g., "marketing automation platform for teams").
+#
+# EXPECTED OUTCOMES & TIMELINES:
+# - Completed gap analysis report by Day 15 of the audit cycle.
+# - High opportunity keywords selected and routed to content team for article briefing by Day 20.
+# ==========================================
+Keyword,Current Position,Search Volume,Keyword Difficulty,Competitor A Rank,Competitor B Rank,Opportunity Score
+crm software for consultants,75,1200,45,4,6,82
+b2b sales pipeline template,0,880,32,2,3,78
+lead scoring tools,42,1600,55,5,8,70
+automated email marketing platform,58,2400,60,3,9,65
+enterprise marketing reporting,0,450,28,7,12,60
+sales forecasting software,88,3200,68,1,4,58
+workflow automation integrations,0,600,38,8,15,55

@@ -1,0 +1,26 @@
+# ==========================================
+# PURPOSE & CONTEXT:
+# This sheet is the central tracking database for the SEO Content Audit. It catalogs every indexable marketing page, records core SEO parameters, and calculates the weighted SEO Score to prioritize remediation.
+#
+# STEP-BY-STEP INSTRUCTIONS:
+# 1. Run a crawl in Screaming Frog and export the internal URL list.
+# 2. Copy URLs, Title Tags, Meta Descriptions, H1s, and Word Counts into this sheet.
+# 3. Test page speed in Google PageSpeed Insights and fill in the Page Speed Score (0-100).
+# 4. Use the SEO Scoring Rubric (strategy/SEO_SCORING_RUBRIC.md) to calculate the Audit Score.
+# 5. Determine Priority based on the Priority Matrix (strategy/PRIORITY_MATRIX.md), assign an Owner, and set the Status.
+#
+# COMMON MISTAKES TO AVOID:
+# - Leaving outdated pages without an owner or deadline.
+# - Over-optimizing meta titles and descriptions in the spreadsheet without updating the live CMS.
+# - Failing to track status updates, leading to duplicate efforts.
+#
+# EXPECTED OUTCOMES & TIMELINES:
+# - Inventory and baseline scoring completed by Day 15 of the audit cycle.
+# - All high-priority (Quick Win) fixes resolved and status updated to "Completed" by Day 30.
+# ==========================================
+URL,Title Tag,Meta Description,H1,Word Count,Page Speed Score,Audit Score,Priority,Owner,Status
+https://example.saas.com/,"B2B Enterprise CRM Software | BrandName","Streamline sales pipelines and automate marketing tasks with our enterprise-grade CRM software. Request a free demo today.","Enterprise Sales CRM & Automation Software",1250,78,82,Medium,SEO Team,In Progress
+https://example.saas.com/pricing,"Simple, Transparent CRM Pricing Plans | BrandName","Explore pricing tiers for teams of all sizes. No hidden fees. Start your 14-day free trial or contact sales for custom plans.","Flexible Pricing Plans for Scaling Teams",450,92,88,Low,SEO Team,Completed
+https://example.saas.com/blog/best-crm-tools,"Top 10 CRM Tools for B2B SaaS in 2026 | BrandName","Compare the top B2B SaaS CRM tools for sales forecasting, lead management, and automation. Read our comprehensive analysis.","Top 10 CRM Tools for B2B SaaS",2850,45,58,High,Content Team,Not Started
+https://example.saas.com/features/marketing-automation,"Enterprise Marketing Automation Features | BrandName","Automate campaigns, score leads, and track customer journeys. Read about our marketing automation software features.","Enterprise Marketing Automation",950,55,62,High,Dev Team,Not Started
+https://example.saas.com/demo,"Book a Custom Live Demo | BrandName","Schedule a personalized demo with our software specialists to see our CRM features in action. Choose a convenient time slot.","Request a Personalized Live Demo",280,88,78,Medium,SEO Team,Completed

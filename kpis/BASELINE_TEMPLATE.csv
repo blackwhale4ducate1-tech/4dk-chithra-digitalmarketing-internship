@@ -1,0 +1,27 @@
+# ==========================================
+# PURPOSE & CONTEXT:
+# This sheet is the monthly comparative log. It records baseline metrics prior to executing audits and logs monthly changes to evaluate long-term trends and SEO ROI.
+#
+# STEP-BY-STEP INSTRUCTIONS:
+# 1. On the last business day of the month, pull GSC and GA4 metrics for the preceding 30 days.
+# 2. Record the monthly Organic Traffic (sessions), Impressions, Average CTR, and Average Position.
+# 3. Enter the total Goal Conversions (signups + demo requests) driven by organic traffic.
+# 4. Check Google Search Console Indexing reports to log the number of Crawl Errors.
+# 5. Extract the Core Web Vitals Pass Rate percentage from GSC Experience reports or PageSpeed Insights history.
+#
+# COMMON MISTAKES TO AVOID:
+# - Log metrics using different date parameters. Always pull data for the exact calendar month (e.g., May 1 to May 31).
+# - Mix paid and organic metrics. Ensure all traffic and conversion metrics are filtered strictly to "Organic Search".
+#
+# EXPECTED OUTCOMES & TIMELINES:
+# - Logs updated monthly on a recurring schedule.
+# - Clear performance improvements visible within 60-90 days of implementing audit recommendations.
+# ==========================================
+Month,Organic Traffic,Impressions,CTR,Average Position,Goal Conversions,Crawl Errors,Core Web Vitals Pass Rate
+Baseline (Pre-Audit),12500,240000,0.012,32.4,188,48,0.52
+Month 1 (Implementation),12800,245000,0.012,31.8,192,22,0.65
+Month 2,13900,268000,0.015,28.2,235,5,0.85
+Month 3,16200,310000,0.018,24.5,310,2,0.92
+Month 4,18500,345000,0.021,21.2,398,1,0.95
+Month 5,21000,395000,0.023,18.8,485,0,0.96
+Month 6,24500,450000,0.025,15.6,612,0,0.98
